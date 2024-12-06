@@ -1,78 +1,147 @@
-# 📋 Programming 1A - Kanban Board Project  
+# 📋 Comprehensive Java Projects Documentation  
 
-## 📝 Overview  
-This project is a practical implementation of a **Kanban board system**, developed as part of the **Programming 1A (PROG5121)** course. The objective is to create a software application that allows users to manage tasks effectively using Kanban methodology, emphasizing programming constructs and software development best practices.  
+---
 
-## 🚀 Features  
+## 📝 Programming 1A - Kanban Board Project  
 
-### 🔑 User Registration and Login  
-- Users can create an account by entering their **username**, **password**, **first name**, and **last name**.  
-- The system validates inputs and provides appropriate feedback.  
+### 🌟 Overview  
+A practical implementation of a **Kanban board system**, developed as part of the **Programming 1A (PROG5121)** course. The objective is to create an application to effectively manage tasks using Kanban methodology, emphasizing programming constructs and software development best practices.  
 
-### 🛠️ Task Management  
-- Users can add tasks to the Kanban board after successful login.  
-- A welcome message is displayed, followed by a **numeric menu** for task management options.  
+### 🚀 Features  
 
-### 📊 Task States  
-- Tasks are categorized into three states:  
+#### 🔑 User Registration and Login  
+- Create accounts with **username**, **password**, **first name**, and **last name**.  
+- Input validation with feedback.  
+
+#### 🛠️ Task Management  
+- Add tasks post-login.  
+- Displays a **welcome message** and a numeric menu for task options.  
+
+#### 📊 Task States  
+- Categorized into three:  
   - **To Do**  
   - **Doing**  
   - **Done**  
 
-### ✅ Unit Testing  
-- Unit tests using **JUnit** ensure functionality and code quality.  
-- **GitHub Actions** for Continuous Integration (CI) automate testing with every code change.  
+#### ✅ Unit Testing  
+- Includes **JUnit** tests for functionality and code quality.  
+- Automated CI testing with **GitHub Actions**.  
 
-## 💻 Technologies Used  
-- **Programming Language**: Java  
-- **Version Control**: Git and GitHub  
+### 💻 Technologies Used  
+- **Language**: Java  
+- **Version Control**: Git, GitHub  
 - **Testing Framework**: JUnit  
 - **Development Environment**: [Your IDE of choice]  
 
-## 🤝 Contribution  
-This project is an **individual assignment** as per course requirements. However, feedback and suggestions for improvement are welcome.  
+### 📜 License  
+Licensed under the **MIT License** – see `LICENSE` for details.  
 
-## 📜 License  
-This project is licensed under the **MIT License** – see the `LICENSE` file for details.  
+### 🙌 Acknowledgments  
+- **The Independent Institute of Education (Pty) Ltd** for project guidelines.  
+- Resources for **GitHub** and **JUnit** documentation.  
 
-## 🙌 Acknowledgments  
-- **The Independent Institute of Education (Pty) Ltd** for course framework and guidelines.  
-- Online resources for **GitHub** and **JUnit** documentation.  
+---
 
----  
+## 🛒 Extreme IT Products Management Application  
 
-# 🛒 Extreme IT Products Management Application  
+### 🌟 Project Overview  
+A **Java application** for managing product inventory at **Extreme IT Products**, a supplier specializing in IT hardware.  
 
-## 📝 Project Overview  
-This project involves the development of a **Java application** for managing product inventory at **Extreme IT Products**, a local supplier specializing in IT hardware.  
+### 🚀 Features  
 
-## 🚀 Key Features  
+#### 📋 Menu Structure  
+- Startup menu for navigating product management options.  
 
-### 📋 Menu Structure  
-- User-friendly menu on startup for navigating various product management options.  
-
-### 🛠️ Product Management  
-- **Add Product**: Input product details like name, price, stock level, and warranty.  
+#### 🛠️ Product Management  
+- **Add Product**: Input details (name, price, stock, warranty).  
 - **Update Product**: Modify existing product details.  
-- **Delete Product**: Remove products by entering product codes.  
-- **Search Product**: Search by product code to retrieve product details or display an error if not found.  
+- **Delete Product**: Remove items using product codes.  
+- **Search Product**: Retrieve details by product code or show errors for invalid entries.  
 
-### 📊 Reporting  
-- Generate product reports via a dedicated `ReportData` class with **getter** and **setter** methods.  
+#### 📊 Reporting  
+- Generate reports via a `ReportData` class with **getter** and **setter** methods.  
 
-### ✨ User Feedback  
-- Feedback is provided upon successful actions (e.g., saving product details, confirming deletions).  
+#### ✨ User Feedback  
+- Confirm actions like saving or deleting products with feedback.  
 
-## 💻 Technical Implementation  
-- Developed in **Java**, adhering to **OOP principles**.  
-- Encapsulated class structure for efficient product data management.  
-- Intuitive **user interface** for ease of use.  
+### 💻 Technical Implementation  
+- Developed in **Java**, following **OOP principles**.  
+- Encapsulated class structure for effective data management.  
+- Designed a user-friendly **interface**.  
 
-## 📚 Compliance with Academic Standards  
-- Proper referencing of all resources used.  
-- Adherence to **intellectual integrity policies**.  
-- Consistent **formatting and documentation**.  
+### 📚 Compliance  
+- Original work with proper citations.  
+- Adhered to **academic standards** and formatting guidelines.  
 
-## 🎯 Conclusion  
-The **Extreme IT Products Management Application** meets project requirements, enhancing business efficiency while demonstrating programming skills and academic compliance.  
+### 🎯 Conclusion  
+The application meets project requirements, improving operational efficiency and demonstrating programming skills.  
+
+---
+
+## 🏥 Hospital Inspection and Travel Information Java GUI Applications  
+
+### 🌟 Project Overview  
+Two Java GUI applications designed for:  
+1. Capturing hospital inspection details.  
+2. Recording travel information between locations.  
+
+---
+
+### 🏥 Application 1: Hospital Inspection  
+
+#### 🛠️ Features  
+
+- **User Input Fields**:  
+  - **JTextField**: Hospital name and location.  
+  - **JComboBox**: Select inspection years (1–5).  
+
+- **Buttons**:  
+  - **Save**: Store details in an array.  
+  - **Print**: Retrieve and display details in a **JList**.  
+  - **Clear**: Reset inputs and list.  
+
+- **Menu System**:  
+  - File menu for exiting.  
+  - Tools menu for saving, printing, and clearing data.  
+
+- **Validation**:  
+  - Limits entries to five hospitals, with error messages via `JOptionPane`.  
+
+#### 🏗️ Code Structure  
+- Organized with clear classes and methods.  
+- Includes comments for better understanding and maintenance.  
+
+---
+
+### ✈️ Application 2: Travel Information  
+
+#### 🛠️ Features  
+
+- **User Input Fields**:  
+  - **JComboBox**: Choose start location, end location, and travel type.  
+  - **JList**: Display captured travel data.  
+
+- **File Operations**:  
+  - Save data to `travel.txt` with `FileWriter`.  
+  - Load data on startup and populate the list.  
+
+- **Validation**:  
+  - Restricts start/end locations to three options (**Cape Town**, **Durban**, **Port Elizabeth**).  
+  - Travel types limited to **Airplane** and **Train**.  
+  - Ensures start and end locations differ, with error prompts for invalid choices.  
+
+#### 🏗️ Code Structure  
+- Clear methods for functionality and comments for readability.  
+
+### 🎯 Conclusion  
+The applications are user-friendly and feature robust data validation and management, demonstrating proficiency in Java GUI development.  
+
+---
+
+### 📜 License  
+Licensed under the **MIT License**.  
+
+### 🙌 Acknowledgments  
+- **The Independent Institute of Education (Pty) Ltd** for project guidance.  
+- Online resources for Java GUI development.  
 
