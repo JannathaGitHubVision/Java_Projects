@@ -1,0 +1,6 @@
+Cape Town,Durban,AirplaneTRAVEL LOG
+*************************************************
+Destination 1: Cape Town
+Destination 2: Durban
+Travel By: Airplane
+*************************************************
